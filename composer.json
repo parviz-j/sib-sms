@@ -23,6 +23,12 @@
       }
     }
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/parviz-j/sib-sms"
+    }
+  ]
 }
