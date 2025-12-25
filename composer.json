@@ -1,0 +1,28 @@
+{
+  "name": "parviz-j/sib-sms",
+  "description": "Laravel package for sms-webservice.com API (V3) with optional persistence",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0|^11.0",
+    "illuminate/http": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ParvizJ\\SibSms\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ParvizJ\\SibSms\\SibSmsServiceProvider"
+      ],
+      "aliases": {
+        "SibSms": "ParvizJ\\SibSms\\Facades\\SibSms"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
