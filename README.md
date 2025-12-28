@@ -2,7 +2,7 @@
 
 Laravel package for [sib-sms.com](https://www.sibsms.com/) (API V3) with optional database persistence.
 
-## Install (GitHub VCS)
+### Install
 In your Laravel project `composer.json`:
 
 ```ssh
